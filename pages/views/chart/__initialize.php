@@ -74,8 +74,7 @@ $restored_name = stripslashes($name);
 	if (strlen($h_sys) != 1) 
 		$h_sys = "p";
 
-	exec (SWEPH."swetest -edir".SWEPH." -b$utdatenow -ut$utnow -p0123456789DAttt -eswe -house$my_longitude,$my_latitude,$h_sys -flsj -g, -head", $out, $error);
-	echo SWEPH."swetest -edir".SWEPH." -b$utdatenow -ut$utnow -p0123456789DAttt -eswe -house$my_longitude,$my_latitude,$h_sys -flsj -g, -head ~~~~~";
+	exec (_SWEPH_EXEC." -edir".SWEPH." -b$utdatenow -ut$utnow -p0123456789DAttt -eswe -house$my_longitude,$my_latitude,$h_sys -flsj -g, -head", $out, $error);
 
 	// Each line of output data from swetest is exploded into array $row, giving these elements:
 	// 0 = longitude
