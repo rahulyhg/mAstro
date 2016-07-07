@@ -4,6 +4,7 @@ mAstro is a free and open astrological community.
 ## How to install
 1. Extract and rename the folder to *astro*
 2. Update config file (connection data in ./lib/conf.php)
+3. Create new database, import data from ./lib/astro.sql
 
 ### Set up Swiss ephemeris on Ubuntu (recommend)
 Nothing needs to change.
@@ -12,3 +13,5 @@ Nothing needs to change.
 (I do not recommend using windows to set up mAstro, since windows does not run calculations very quickly using the Swiss ephemeris program swetest.exe)
 
 Update config file, change `define('_SWEPH_EXEC', SWEPH.'swetest');` to `define('_SWEPH_EXEC', SWEPH.'swetest.exe');`
+
+** Note ** swetest/swetest.exe must have execute permission.
