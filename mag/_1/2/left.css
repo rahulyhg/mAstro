@@ -1,0 +1,19 @@
+@font-face{font-family:elle-futura-bold;src:url('../assets/font/elle-futura-bold.eot'),url('../assets/font/elle-futura-bold.otf') format('opentype'),url('../assets/font/elle-futura-bold.ttf') format('truetype'),url('../assets/font/elle-futura-bold.woff');}
+@font-face{font-family:elle-futura-boldoblique;src:url('../assets/font/elle-futura-boldoblique.eot'),url('../assets/font/elle-futura-boldoblique.otf') format('opentype'),url('../assets/font/elle-futura-boldoblique.ttf') format('truetype'),url('../assets/font/elle-futura-boldoblique.woff');}
+@font-face{font-family:elle-futura-book;src:url('../assets/font/elle-futura-book.eot'),url('../assets/font/elle-futura-book.otf') format('opentype'),url('../assets/font/elle-futura-book.ttf') format('truetype'),url('../assets/font/elle-futura-book.woff');}
+@font-face{font-family:elle-futura-bookoblique;src:url('../assets/font/elle-futura-bookoblique.eot'),url('../assets/font/elle-futura-bookoblique.otf') format('opentype'),url('../assets/font/elle-futura-bookoblique.ttf') format('truetype'),url('../assets/font/elle-futura-bookoblique.woff');}
+.flow-left-content p{margin-top:0}
+.flow-left-region{flow-from:flow-left;-webkit-flow-from:flow-left;-moz-flow-from:flow-left;box-sizing:border-box;position:absolute}
+.flow-left-region.left-col{padding-right:10px;top:0;bottom:0;left:0;width:50%}
+.flow-left-region.right-col{padding-left:10px;top:0;bottom:0;right:0;width:50%}
+.flow-des{flow-from:flow-des;-webkit-flow-from:flow-des;-moz-flow-from:flow-des;box-sizing:border-box;position:absolute;left:27px;right:40px;top:68px}
+
+.flow-left-content{flow-into:flow-left;-webkit-flow-into:flow-left;-moz-flow-into:flow-left;font-family: 'elle-futura-book', 'Roboto Condensed', 'Roboto', Arial, sans-serif;font-size:14px;line-height:24px;text-align:justify;text-indent:20px}
+.flow-title-content{flow-into:flow-title;-webkit-flow-into:flow-title;-moz-flow-into:flow-title;font-family: 'elle-futura-bold';font-size:30px}
+.flow-title{flow-from:flow-title;-webkit-flow-from:flow-title;-moz-flow-from:flow-title;box-sizing:border-box;position:absolute;text-align:justify;z-index:5;top:10px;left:30px;right:-20px}
+.flow-des-content{flow-into:flow-des;-webkit-flow-into:flow-des;-moz-flow-into:flow-des;font-family: 'elle-futura-book', 'Roboto Condensed', 'Roboto', Arial, sans-serif;font-size:14px;line-height:24px;text-align:justify;text-indent:20px;font-size:13px;font-style:italic;color:#eee}
+.flow-des-content p{margin:3px 0 6px!important}
+
+.m-page-left{color:#fff}
+.left-bg{position:absolute;top:0;left:0;right:0;bottom:0;background-size:cover;*background-attachment:fixed}
+.left-bg:before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.34)}

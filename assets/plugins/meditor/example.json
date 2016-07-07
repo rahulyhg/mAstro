@@ -1,0 +1,10 @@
+[
+              {label: "George Washington",         value: "george"},
+              {label: "Abraham Lincoln",           value: "abe"},
+              {label: "Andrew Jackson",            value: "andy"},
+              {label: "Thomas Jefferson",          value: "tj"},
+              {label: "Alexander Hamilton",        value: "alex"},
+              {label: "John F. Kennedy",           value: "jfk"},
+              {label: "Teddy Roosevelt",           value: "teddy"},
+              {label: "Franklin Delano Roosevelt", value: "fdr"}
+          ];

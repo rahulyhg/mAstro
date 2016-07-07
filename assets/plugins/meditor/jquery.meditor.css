@@ -1,0 +1,33 @@
+.meditor-container{position:relative;background:#fff;/*border:1px solid #f2f2f2;box-shadow:inset 0 0 8px #f8f8f8;border-radius:3px;margin:2px 0;*/padding:0!important;border:1px solid #f7f7f7}
+.meditor-toolbar{background:#fafafa;display:none}
+.meditor-iframe{padding:6px 8px!important;width:100%!important;outline:none;color:#111;margin:0!important;border:0!important;font-size:12px;line-height:22px;font-family:'Lato';height:calc(100% - 10px)!important;overflow:auto}
+.with-thumbbox .meditor-iframe{height:calc(100% - 90px)!important}
+.meditor-link-thumbbox{background:#fff;border-top:1px solid #f6f6f6}
+.thumbbox{padding:5px 10px;position:relative;padding-left:100px!important;height:80px}
+.thumbbox a{text-decoration:none!important}
+.thumbbox a:not(.close-thumbbox):hover{background:#FBE1EA;color:#FF3E7E}
+.thumbbox .thumb-title{font-size:15px;line-height:24px}
+.thumbbox .thumb-link{font-size:9px;line-height:11px;position:relative;display:block;max-width:80%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.thumbbox .thumb-content{line-height:16px;font-size:10px}
+.thumbbox .thumb-photo{position: absolute;top:0;bottom:0;left:0;width:90px}
+.thumbbox .thumb-photo img{margin:0 7px 3px 0;background:#fff;*border:1px solid #f5f5f5;padding:2px;border-radius:0;width:100%;height:100%}
+.close-thumbbox{cursor:pointer;position: absolute;top:0;right:9px;z-index:4}
+
+.select-tag-users{background:#fff;border:1px solid #f4f4f4;left:-1px;right:-1px;padding:0!important;z-index:100}
+.select-tag-users .content{margin:0!important}
+.select-tag-users .one-fr-search img{width:30px;height:30px;margin-top:7px}
+.select-tag-users .one-fr-search{cursor:pointer;border-top:1px solid #f9f9f9;height:49px;padding:1px 10px;margin:0 0 -1px;line-height:25px}
+.select-tag-users .one-fr-search:hover{background:#37bc9b;color:#fff}
+.select-tag-users .one-fr-search:hover a{color:#fff}
+.select-tag-users .one-fr-search:first-child{border-top:0}
+.select-tag-users .one-fr-search .uname{margin-top:-7px;font-size:11px}
+a.select-tag-close{position:absolute;top:0;right:0;padding:6px;z-index:101;color:#777!important}
+
+.tag-name{color:#fff;background:#37bc9b;border-radius:3px;padding:0 3px 2px;display:inline;cursor:pointer}
+.tag-name{margin:0 2px}
+.tag-name a{color:#fff}
+
+/*.cmt-post-form textarea + .meditor-container{margin-left:45px;height:60px;width: calc(100% - 50px)}
+.cmt-cmt-form textarea + .meditor-container{margin-left:40px;height:50px;width: calc(100% - 45px)}
+*/.cmt-post-form textarea + .meditor-container.with-thumbbox{height:140px}
+.cmt-cmt-form textarea + .meditor-container.with-thumbbox{height:130px}
